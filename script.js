@@ -8,7 +8,7 @@ let lightMode = document.getElementById('light');
 
 darkMode.addEventListener('click',()=>{
             lightMode.style.opacity = '1';
-            gameContainer.style.backgroundColor = '#6b3b3b';
+            gameContainer.style.backgroundColor = 'black';
             darkMode.style.opacity = '0';
             gameContainer.style.color = 'white';
         });
